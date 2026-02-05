@@ -106,9 +106,6 @@ function App() {
           <span className="text-white">TAC</span>
           <span className="neon-text-magenta ml-2">TOE</span>
         </h1>
-        <div className="text-xs sm:text-sm text-gray-400 tracking-[0.2em] sm:tracking-[0.3em] uppercase font-light">
-          Unbeatable AI Edition
-        </div>
         <div className="mt-4 text-xs font-mono text-gray-500 animate-pulse">
           YOU ARE PLAYING AS <span className={`font-bold ${humanPlayer === 'X' ? 'neon-text-cyan' : 'neon-text-magenta'}`}>{humanPlayer}</span>
         </div>
